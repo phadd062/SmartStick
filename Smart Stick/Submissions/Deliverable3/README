@@ -1,0 +1,51 @@
+Repository for On-Demand Home Repair Services App
+=================================================
+
+Repository URL:
+
+  https://github.com/lnogu043/home-repair-services-app
+
+Developers
+----------
+
+Luiz Nogueira <lnogu043@uottawa.ca>
+Abbey Kerkmann <akerk059@uottawa.ca>
+Peter Haddad <phadd062@uottawa.ca>
+Paul-André Abou Zeid <pabou049@uottawa.ca>
+
+
+Summary of Deliverable 1
+------------------------
+Administrator Username: Admin
+
+-Github repo with all members and the professor
+-Each member has at least one commit in the repo
+-UML class diagram
+-APK submitted
+-Can create a user account with specific role
+-Users login and promtped with the welcome screen
+
+
+Summary of Deliverable 2
+------------------------
+
+-Updated UML Diagram to include new classes
+-APK submitted
+-5 unit test cases
+-Feature to add, remove and edit services
+-All fields are validated
+
+
+Summary of Deliverable 3
+------------------------
+
+-Updated UML Diagram to include new classes
+-APK submitted
+-2 unit test cases
+-Service provider can complete the profile information
+-Service provider can add and services from his profile
+-Service provider can specify and view the list of his own abilities
+-All fields are validated
+
+
+

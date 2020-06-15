@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeOwnerActivity">
+
+  <LinearLayout
+      android:id="@+id/HomeOwnerLinear1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+      <Button
+          android:id="@+id/HomeOwnerBtnSearchScreen"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Book services"
+          android:onClick="onClickSearchServices"
+          />
+
+      <Button
+          android:id="@+id/HomeOwnerBtnServicesScreen"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List booked services"
+          android:onClick="onClickListServices"
+          />
+
+      <ListView
+          android:id="@+id/HomeOwnerListView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></ListView>
+
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

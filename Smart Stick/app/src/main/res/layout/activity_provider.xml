@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ProviderSetAvail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickEditAvailability"
+                android:text="Edit availability"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ProviderListAllServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickListAllServices"
+                android:text="list all available services" />
+
+            <Button
+                android:id="@+id/ProviderListMyServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickListMyServices"
+                android:text="list my services" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ProviderTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Click button to show list" />
+
+        <TextView
+            android:id="@+id/ProviderTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <ListView
+            android:id="@+id/ProviderListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

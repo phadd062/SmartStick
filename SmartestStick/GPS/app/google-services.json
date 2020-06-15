@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "991467764335",
+    "firebase_url": "https://smartstickfirebaseproject.firebaseio.com",
+    "project_id": "smartstickfirebaseproject",
+    "storage_bucket": "smartstickfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991467764335:android:4c5fb5c0ffaf88a0a9ab9a",
+        "android_client_info": {
+          "package_name": "com.google.maps.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991467764335-6ib18rit5rioe6kht3kuv00vd0lsm6k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.maps.android",
+            "certificate_hash": "227046e54ef30ccc7fe591e15d26c66358e3a52f"
+          }
+        },
+        {
+          "client_id": "991467764335-0dv0bek9i9cjn4efhcb0s22c17bqdh5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.maps.android",
+            "certificate_hash": "0a8273c07553c69712167575a36eeb40603b43a3"
+          }
+        },
+        {
+          "client_id": "991467764335-pl52djgtq9n4eot8rb5ebci8i1n384oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXxSw2Pt33iLWUvTbD5flFvdnXBABzyEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991467764335-pl52djgtq9n4eot8rb5ebci8i1n384oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
